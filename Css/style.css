@@ -1,0 +1,105 @@
+body {
+  background-color: #f7ecde;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.w-500{
+  width: 500px;
+  height: 260px;
+ 
+}
+
+.main-titel h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #352e28;
+  position: relative;
+
+}
+
+
+.main-titel h1::before {
+    content: "";
+    position: absolute;
+    width: 70% ;
+    height: 40%;
+    right: 8px;
+    transform: translateX(-50px);
+    bottom: -1px;
+    background-color: #fec260;
+    z-index: -1;
+  transition: .3s ease-in-out;
+}
+
+.main-titel:hover h1::before{
+    height:70% ;
+}
+
+.bookmark-body .title h2 {
+
+    font-family: "Righteous", cursive;
+   color:  #3ca55c;
+   font-size: 35px;
+
+   
+}
+.bookmark-body .title i {
+    color:  #3ca55c;
+   font-size: 35px;
+}
+
+.bookmark-body  {
+    padding-block: 20px;
+    border: 2px dotted #352e28 ;
+    border-left: transparent;
+    border-right: transparent;
+}
+.bookmark-body button {
+    background-color: #D1512D;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: block;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.main {
+  width: 100%;  
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.box-content li i{
+  font-size: 20px;
+  font-weight: light;
+}
+
+.box-content .circle .one {
+  width: 20px;
+  height: 20px;
+ border-radius: 50%;
+  background-color:#f15f5d;
+  display: block;
+}
+.box-content .circle .two {
+  width: 20px;
+  height: 20px;
+ border-radius: 50%;
+  background-color:#febe2e;
+  display: block;
+}
+.box-content .circle .three {
+  width: 20px;
+  height: 20px;
+ border-radius: 50%;
+  background-color:#4db748;
+  display: block;
+}
+
